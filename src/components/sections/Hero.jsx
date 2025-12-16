@@ -107,13 +107,22 @@ const Hero = () => {
             transition={{ delay: 0.6, duration: 0.5 }}
             className="flex flex-col sm:flex-row justify-center md:justify-start gap-4 w-full max-w-lg mx-auto md:mx-0"
           >
-            <div className="flex-1 flex items-center gap-4 bg-[#0a0a0a] px-5 py-3 rounded-xl border border-gray-800 hover:border-cyan-500/30 transition-all group">
+            
+            {/* *** LOCATION CARD MODIFICATION START *** */}
+            <a 
+              href="https://maps.app.goo.gl/KjwxekNo7RknmA1N9" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 flex items-center gap-4 bg-[#0a0a0a] px-5 py-3 rounded-xl border border-gray-800 hover:border-cyan-500/30 transition-all group cursor-pointer"
+            >
               <span className="text-2xl p-2 bg-gray-900 rounded-lg group-hover:bg-gray-800 transition-colors">📍</span>
               <div className="text-left">
                 <div className="text-[10px] text-gray-500 uppercase font-bold tracking-widest">Location</div>
-                <div className="text-sm text-gray-200 font-medium">Tamil Nadu, India</div>
+                {/* *** TEXT CHANGED HERE *** */}
+                <div className="text-sm text-gray-200 font-medium">Neyveli, Tamil Nadu, India</div>
               </div>
-            </div>
+            </a>
+            {/* *** LOCATION CARD MODIFICATION END *** */}
 
             <a href={`mailto:${DATA.email}`} className="flex-1 flex items-center gap-4 bg-[#0a0a0a] px-5 py-3 rounded-xl border border-gray-800 hover:border-cyan-500/30 transition-all group cursor-pointer">
               <span className="text-2xl p-2 bg-gray-900 rounded-lg group-hover:bg-gray-800 transition-colors">📧</span>
