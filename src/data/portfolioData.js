@@ -6,7 +6,7 @@ export const DATA = {
   
   email: "baranitharantamilselvam@gmail.com",
   phone: "+91 7806968106",
-  location: "Virudhachalam, Tamil Nadu",
+  location: "Neyveli, Tamil Nadu",
   
   // All PDF and Resume paths are correct.
   resumeLink: "/Barani Tharan Final Resume.pdf", 
