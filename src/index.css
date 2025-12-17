@@ -3,8 +3,28 @@
 @tailwind utilities;
 
 @layer base {
-  html { scroll-behavior: smooth; }
-  body { @apply bg-dark text-slate-200 overflow-x-hidden; }
+  html { 
+    scroll-behavior: smooth; 
+    /* Fixes "jittery" scrolling on iPhones */
+    -webkit-overflow-scrolling: touch; 
+  }
+  body { 
+    @apply bg-dark text-slate-200 overflow-x-hidden; 
+    /* Prevents the browser from constantly re-painting the background */
+    text-rendering: optimizeLegibility;
+  }
+}
+
+/* --- NEW: Performance & GPU Acceleration Layer --- */
+@layer components {
+  .motion-gpu {
+    /* Forces the browser to create a separate "Compositor Layer" for the element */
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    /* Tells the GPU to stay ready for changes in transform and opacity */
+    will-change: transform, opacity;
+  }
 }
 
 /* Custom Scrollbar */
@@ -12,8 +32,10 @@
 ::-webkit-scrollbar-track { background: #0f172a; }
 ::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
 
-/* Cursor Glow */
+/* Cursor Glow - Optimized for performance */
 .cursor-glow {
   background: radial-gradient(600px circle at var(--x) var(--y), rgba(99, 102, 241, 0.15), transparent 80%);
   position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 50;
+  /* Ensure the glow doesn't trigger layout calculations */
+  contain: strict;
 }
