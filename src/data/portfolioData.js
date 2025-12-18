@@ -9,7 +9,7 @@ export const DATA = {
   location: "Neyveli, Tamil Nadu",
   
   // All PDF and Resume paths are correct.
-  resumeLink: "/Barani Tharan Final Resume.pdf", 
+  resumeLink: "/Barani Tharan Resume.pdf", 
 
   // ✅ SOCIAL LINKS (Unchanged)
   socials: [
