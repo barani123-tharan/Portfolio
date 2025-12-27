@@ -1,8 +1,8 @@
 export const DATA = {
   name: "Barani Tharan",
-  roles: ["Web Developer", "Frontend Developer", "UI/UX Enthusiast"],
+  roles: [ "Full-Stack Developer", "UI/UX Enthusiast"],
   
-  about: "I am a motivated CSE student (2024–2028) focused on frontend development. I specialize in building responsive web interfaces with attention to accessibility and performance. Currently studying at Dhanalakshmi Srinivasan College of Engineering.",
+  about: "I am a passionate Computer Science Undergraduate Specializing in Frontend Development. I emjoy building responsive, User-Friendly Web Applications with a strong focus on performance and design. Currently, I am pursuing B.E. Computer Science and Engineering at Dahanaam Srinivasan College of Engineering and Technology (Autonomous) under Anna University. I am actively working on real-world projects and continuously improving my skills. ",
   
   email: "baranitharantamilselvam@gmail.com",
   phone: "+91 7806968106",
@@ -42,9 +42,9 @@ export const DATA = {
   // ✅ SKILLS (Unchanged)
  skills: {
     'Programming Languages': [
-      { name: 'Python', level: 65, color: 'text-green-500' }, 
-      { name: 'C', level: 60, color: 'text-red-500' },
-      { name: 'C++', level: 55, color: 'text-red-600' },
+      { name: 'Python', level: 50, color: 'text-green-500' }, 
+      { name: 'C', level: 35, color: 'text-red-500' },
+      { name: 'C++', level: 52, color: 'text-red-600' },
       { name: 'Java', level: 50, color: 'text-orange-600' }
     ],
     'Web Technologies': [
@@ -54,13 +54,13 @@ export const DATA = {
       { name: 'React', level: 80, color: 'text-cyan-400' }
     ],
     'Databases/Tools': [
-      { name: 'MySQL', level: 70, color: 'text-blue-400' }, 
-      { name: 'MongoDB', level: 60, color: 'text-green-400' },
+      { name: 'MySQL', level: 60, color: 'text-blue-400' }, 
+      { name: 'MongoDB', level: 70, color: 'text-green-400' },
       { name: 'Git', level: 75, color: 'text-purple-400' }
     ],
     'Frameworks & Runtime': [
       { name: 'Bootstrap', level: 70, color: 'text-indigo-500' }, 
-      { name: 'Tailwind CSS', level: 90, color: 'text-sky-400' },
+      { name: 'Tailwind CSS', level: 80, color: 'text-sky-400' },
       { name: 'Node.js', level: 45, color: 'text-lime-500' },
       { name: 'Angular', level: 40, color: 'text-red-700' }
     ],
