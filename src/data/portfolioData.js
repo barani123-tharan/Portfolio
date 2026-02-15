@@ -2,7 +2,7 @@ export const DATA = {
   name: "Barani Tharan",
   roles: [ "Full-Stack Developer", "UI/UX Enthusiast"],
   
-  about: "I am a passionate Computer Science Undergraduate Specializing in Frontend Development. I emjoy building responsive, User-Friendly Web Applications with a strong focus on performance and design. Currently, I am pursuing B.E. Computer Science and Engineering at Dahanaam Srinivasan College of Engineering and Technology (Autonomous) under Anna University. I am actively working on real-world projects and continuously improving my skills. ",
+  about: "I am a passionate Computer Science Undergraduate Specializing in Frontend Development. I enjoy building responsive, User-Friendly Web Applications with a strong focus on performance and design. Currently, I am pursuing B.E. Computer Science and Engineering at Dhanalakshmi Srinivasan College of Engineering and Technology (Autonomous) under Anna University. I am actively working on real-world projects and continuously improving my skills. ",
   
   email: "baranitharantamilselvam@gmail.com",
   phone: "+91 7806968106",
